@@ -305,7 +305,7 @@ function getSumToN(n) {
  *   5   => 5  // 5
  */
 function getSumOfDigits(num) {
-  let number = num; // Создаем новую переменную для хранения значения num
+  let number = num;
 
   let sum = 0;
   while (number > 0) {
